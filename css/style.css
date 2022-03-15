@@ -1,0 +1,24 @@
+/* Variables */
+
+:root {
+--freelancer-primary: #1ABC9C;
+--freelancer-dark-blue: #2C3E50;
+--freelancer-dark: #333333;
+--freelancer-lighter-blue: #3A546D;
+
+}
+
+/* Debugs rules */
+.debugs>header {
+    height: 100px;
+    background-color: var(--freelancer-dark-blue)
+}
+
+.debugs>main {
+    background-color: aquamarine;
+}
+
+.debugs .hero_img {
+    height: 500px;
+    background-color: var(--freelancer-primary);
+}
