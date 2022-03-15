@@ -8,17 +8,25 @@
 
 }
 
+/* Common rules */
+
+img {
+    max-width: 100%;
+}
+
 /* Debugs rules */
 .debugs>header {
     height: 100px;
     background-color: var(--freelancer-dark-blue)
 }
 
-.debugs>main {
-    background-color: aquamarine;
-}
-
 .debugs .hero_img {
     height: 500px;
     background-color: var(--freelancer-primary);
 }
+
+/* .debugs [class^="col"] {
+    height: 80px;
+    width: 80px;
+    background-color: pink;
+} */
