@@ -8,31 +8,34 @@
 
 }
 
-/* Common rules */
-
-img {
-    max-width: 100%;
-}
-
-/* Debugs rules */
+/* Header */
 .debugs>header {
     height: 100px;
     background-color: var(--freelancer-dark-blue)
 }
 
+/* Main */
+
+/* Section hero_img */
 .debugs .hero_img {
     height: 500px;
     background-color: var(--freelancer-primary);
 }
+
+/* Section about_me */
 
 .debugs .about_me {
     height: 300px;
     background-color: var(--freelancer-primary);
 }
 
+/* Section contact */
+
 .debugs .contact {
     height: 400px;
 }
+
+/* Footer */
 
 .debugs .site_footer_top {
     height: 120px;
